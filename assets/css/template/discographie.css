@@ -8,12 +8,15 @@ body{
 }
 .nav-discographie{
     display: flex;
-    gap: 2rem;
+    gap: 1.2rem;
     padding: 0%;
     font-size: 1.3rem;
 }
 .nav-discographie li{
     list-style: none;
+    border: 1px solid #4e4e4e;
+    border-radius: 5px;
+    padding: 5px 10px 5px;
 }
 .nav-discographie li a{
     text-decoration: none;
