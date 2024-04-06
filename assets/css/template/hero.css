@@ -6,6 +6,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0vw 10vw 0vw;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
     color: white !important;
 }
 .all-info{
@@ -58,4 +60,28 @@ body{
 }
 .social-media-icons img{
     width: 25px;
+}
+
+@media screen and (max-width: 1024px){
+    .container_info{
+        flex-direction: column-reverse;
+        margin: 0vw 5vw 0vw;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        gap: 3rem;
+    }
+    .all-info{
+        width: 100%;
+        gap: 3rem;
+    }
+    .main-cover{
+        width: 100%;
+    }
+    .info-title {
+       text-align: center;
+    }
+    .social-media{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
