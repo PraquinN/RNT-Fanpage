@@ -1,0 +1,49 @@
+body{
+    background-color: black !important;
+}
+.container_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+    margin: 0vw 10vw 0vw;
+    color: white !important;
+}
+.all-info{
+    background-color: green;
+}
+.info-music ul{
+    padding: 0%;
+}
+.lst-item{
+    display: flex;
+    justify-content: space-between;
+}
+.lst-item li{
+    list-style: none;
+}
+
+.main-cover{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.main-cover-band img{
+    width: 70%;
+    transform: scaleX(-1);
+    border-radius: 20px;
+    border: 2px solid;
+}
+.social-media{
+    display: flex;
+    gap: 1rem;
+}
+.social-media-icons a {
+    color: transparent !important;
+}
+.social-media-icons a{
+    margin: 0px 10px 0px;
+}
+.social-media-icons img{
+    width: 25px;
+}
