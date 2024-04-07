@@ -1,0 +1,38 @@
+#vidéos{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    overflow: hidden;
+}
+.title-video{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    gap: 1rem;
+}
+.title-video p{
+    font-size: 20px;
+}
+.carousel-inner{
+    width: 90vw !important;
+    height: 100vh !important;
+}
+iframe{
+    border-radius: 30px;
+}
+.all-inner{
+    height: 75vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .carousel-inner{
+        width: 100vw !important;
+        padding: 0vw 5vw 0vw;
+    }
+    .title-video p{
+        font-size: 14px;
+    }
+}
