@@ -5,19 +5,28 @@
 .navbar-brand img{
     width: 150px;
 }
-.nav-item{
+.nav_h3{
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-transform: uppercase;
+    letter-spacing: 2.45px;
+    font-size: 15px;
+    font-weight: 500;
+
+    background: linear-gradient(to right, #9B51E0,#636AE7,#3081ED);
+    background-clip: text;
+    -webkit-background-clip:text;
 }
-.nav-link{
-    color: white !important;
-    font-weight: 600 !important;
-}
+
 .nav-link img{
     width: 25px;
 }
-.nav-link:hover{
-   color: #AC5EFF !important;
-}
+
 .navbar-toggler{
     background-color: white !important;
+}
+
+.nav_h3:hover{
+    color:rgba(0,0,0,0);
 }
