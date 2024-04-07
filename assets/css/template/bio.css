@@ -40,3 +40,17 @@
     font-weight: 400;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .biographie_title{
+        font-size: 32px;
+    }
+    .biographie_text{
+        font-size: 14px;
+    }
+    .biographie_content{
+        width: 80%;
+        gap: 2rem;
+    }
+  }
