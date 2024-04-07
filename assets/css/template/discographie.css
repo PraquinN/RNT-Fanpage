@@ -24,9 +24,10 @@
 }
 
 .all_container{
+    /* margin-top: 10vh !important; */
     display: flex;
     flex-direction: column;
-    margin: 0vw 5vw 0vw 5vw;
+    margin: 10vw 5vw 0vw 5vw;
     width: 90vw;
 }
 .lst-album{
