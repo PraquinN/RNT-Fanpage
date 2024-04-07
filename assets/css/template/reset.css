@@ -10,3 +10,13 @@ body{
     color: #FFFFFF !important;
     font-family: "Poppins" !important;
 }
+
+h2{
+    font-size: 48px !important;
+}
+
+@media screen and (max-width: 1024px){
+    h2{
+        font-size: 32px !important;
+    }
+}

@@ -5,6 +5,10 @@
     flex-direction: column;
     gap: 1rem;
 }
+.title p{
+    font-size: 20px;
+    font-weight: 400;
+}
 .nav-discographie{
     display: flex;
     gap: 1.2rem;
@@ -46,7 +50,8 @@
     color: white !important;
     background-color: #1F1D2B !important;
     border: 0px !important;
-    width: 250px;
+    /* width: 250px; */
+    width: 18.33%;
 }
 .card img{
     border-radius: 10px;
@@ -83,5 +88,8 @@
     .nav-discographie{
         justify-content: center;
         margin: 1rem 0rem 2rem;
+    }
+    .title p{
+        font-size: 14px;
     }
 }
