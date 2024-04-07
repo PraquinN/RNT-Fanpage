@@ -1,0 +1,123 @@
+body{
+    background-color: #1F1D2B !important;
+    color: #FFFFFF !important;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.form_title{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    font-size: 48px;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.form_main_email{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.form_email{
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    border-width: 0;
+}
+
+.form_main_message{
+    width: 50%;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.form_message{
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    padding: 1rem;
+    border-width: 0;
+}
+
+.form_main_checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+    width: 50%;
+    color: #828282;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.form_checkbox{
+    height: 30px;
+    width: 30px;
+}
+
+.form_main_button{
+    width: 50%;
+}
+
+.form_button{
+    padding: 1rem;
+    border-radius: 10px;
+    border-width: 0;
+    background: linear-gradient(0.25turn, #9B51E0, #3081ED);
+    color: #FFFFFF;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .form{
+        gap: 1rem;
+    }
+
+    .form_title{
+        font-size: 32px;
+        width: 85%;
+    }
+
+    .form_main_email{
+        width: 85%;
+        font-size: 14px;
+    }
+
+    .form_main_message{
+        width: 85%;
+        font-size: 14px;
+    }
+
+    .form_main_checkbox{
+        width: 85%;
+        align-items: stretch;
+    }
+
+    .form_main_button{
+        width: 85%;
+    }
+
+    .form_button{
+        padding: 0.75rem;
+        width: 100%;
+    }
+}
