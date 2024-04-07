@@ -1,41 +1,10 @@
-/* Styles pour le carrousel */
-.carousel {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
+#vidéo{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
 }
-
-.carousel-inner {
-    padding: 1rem;
-}
-
-.carousel-item {
-    transition: transform 0.6s ease-in-out;
-}
-
-.carousel-item img {
-    border-radius: 5px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 4rem;
-    height: 4rem;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    color: #fff;
-}
-
-.carousel-control-prev::before,
-.carousel-control-next::before {
-    font-size: 2rem;
-    line-height: 3.5;
-}
-
-.carousel-control-prev {
-    left: -2rem;
-}
-
-.carousel-control-next {
-    right: -2rem;
+.carousel-inner{
+    width: 90vw !important;
+    height: 100vh !important;
 }
