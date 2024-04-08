@@ -50,8 +50,7 @@
     color: white !important;
     background-color: #1F1D2B !important;
     border: 0px !important;
-    /* width: 250px; */
-    width: 18.33%;
+    width: 250px;
 }
 .card img{
     border-radius: 10px;
