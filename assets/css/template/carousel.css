@@ -23,6 +23,9 @@
 iframe{
     border-radius: 30px;
 }
+.carousel-item{
+    height: 100%;
+}
 .all-inner{
     height: 75vh;
 }
