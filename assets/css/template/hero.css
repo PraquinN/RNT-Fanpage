@@ -25,14 +25,21 @@
 .info-music ul{
     padding: 0%;
 }
+.all-items{
+    margin-top: 1rem;
+}
 .lst-item{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 1rem 0rem;
+}
+.lst-item:not(:last-child){
+    border-bottom: 1px solid rgb(109, 109, 109);
 }
 .lst-item li{
     list-style: none;
 }
-
 .main-cover{
     display: flex;
     flex-direction: column;
