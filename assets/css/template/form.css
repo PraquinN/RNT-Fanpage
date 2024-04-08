@@ -1,8 +1,3 @@
-body{
-    background-color: #1F1D2B !important;
-    color: #FFFFFF !important;
-}
-
 .form{
     display: flex;
     flex-direction: column;

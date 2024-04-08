@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #1F1D2B !important;
+    background-color: #100f17 !important;
     color: #FFFFFF !important;
     font-family: "Poppins" !important;
 }
@@ -17,6 +17,6 @@ h2{
 
 @media screen and (max-width: 1024px){
     h2{
-        font-size: 32px !important;
+        font-size: 32px;
     }
 }
